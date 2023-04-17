@@ -19,6 +19,9 @@ contract CheatcodesTest is Test {
         cheats.setNumber(5);
     }
 
+    //cheatcodes start with vm
+    // ie: vm.prank
+
     //cheatcode #1 time 
     function setNumber() public {
         //foundry cheatcode --increase block.timestamp by x
