@@ -6,4 +6,9 @@ import "../src/Cheatcodes.sol";
 
 contract CheatcodesTest is Test {
 
+    Cheatcodes public cheats;
+
+    function setUp() public {
+        cheats = new Cheatcodes();
+    }
 }
